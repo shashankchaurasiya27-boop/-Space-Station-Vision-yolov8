@@ -1,0 +1,17 @@
+# Dataset paths (IMPORTANT: do NOT include /images here)
+train: ./train
+val: ./val
+test: ./test
+
+# Number of classes
+nc: 7
+
+# Class names (must match classes.txt order)
+names:
+  - OxygenTank
+  - NitrogenTank
+  - FirstAidBox
+  - FireAlarm
+  - SafetySwitchPanel
+  - EmergencyPhone
+  - FireExtinguisher

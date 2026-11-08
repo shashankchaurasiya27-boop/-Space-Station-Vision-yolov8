@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Large Hackathon Deliverables (>100MB GitHub limit)
+submission.zip
+*.zip
+*.tar.gz
+*.7z
+
+# Inference prediction outputs & heavy training runs (Keep repo lean; curated samples are in assets/)
+runs/detect/predict/
+runs/final_train/weights/
+runs/baseline_train/weights/
+YOLOv8/yolov8s/weights/
+*.jpg.tmp
+tmpp*
+
+# Dataset splits (if placed locally)
+train/images/
+train/labels/
+val/images/
+val/labels/
+test/images/
+test/labels/
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor Configs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

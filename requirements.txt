@@ -1,0 +1,17 @@
+# Core Deep Learning & Computer Vision
+ultralytics>=8.3.0
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+
+# Numerical, Data & Utilities
+numpy>=1.24.0
+pandas>=2.0.0
+pyyaml>=6.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tqdm>=4.65.0
+
+# Edge & Embedded Deployment Formats (Optional / Export)
+onnx>=1.14.0
+onnxruntime>=1.15.0
