@@ -228,8 +228,8 @@ com.microsoft: QuickGelu
 
 ```bash
 # Clone the repository
-git clone https://github.com/shashankchaurasiya27-boop/space-station-vision-yolov8.git
-cd space-station-vision-yolov8
+git clone https://github.com/shashankchaurasiya27-boop/-Space-Station-Vision-yolov8.git
+cd -Space-Station-Vision-yolov8
 
 # Create & activate a virtual environment
 python3 -m venv venv
