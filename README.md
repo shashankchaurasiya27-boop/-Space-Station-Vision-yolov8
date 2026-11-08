@@ -37,6 +37,16 @@ This project solves this challenge by developing, benchmarking, and packaging a 
 
 ---
 
+## 🖥️ Interactive Inspection Dashboard
+
+The project includes an interactive mission control dashboard: **[`Space Station Safety Scanner Dashboard.html`](Space%20Station%20Safety%20Scanner%20Dashboard.html)** (open directly in any browser).
+
+* **Inspection Telemetry**: Live metric breakdowns for all 7 safety assets.
+* **System Architecture Blueprint**: Mobile client layer (React Native + Expo) $\rightarrow$ API Gateway (FastAPI `POST /detect`) $\rightarrow$ YOLOv8 engine.
+* **Crew Workflow & Roadmap**: Operational protocol for manual vs. autonomous robotic inspections, including the MVP $\rightarrow$ v1.0 $\rightarrow$ on-device edge roadmap.
+
+---
+
 ## 🛠️ System Architecture & Inference Pipeline
 
 The diagram below details the operational flow from the intra-vehicular camera feed down to real-time embedded robotic actuation:
@@ -291,6 +301,7 @@ space-station-vision-yolov8/
 ├── requirements.txt                                        # Pinned Python package dependencies
 ├── classes.txt                                             # 7 target class names
 ├── yolo_params.yaml                                        # Dataset configuration file
+├── Space Station Safety Scanner Dashboard.html             # Interactive UI inspection dashboard
 │
 ├── train.py                                                # Cross-platform training script (MPS/CUDA aware)
 ├── predict.py                                              # Inference pipeline with speed telemetry
